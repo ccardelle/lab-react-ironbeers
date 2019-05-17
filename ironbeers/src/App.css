@@ -23,11 +23,16 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.allbeers-group {
+  display: flex;
+  max-width: 50%;
+  align-content: center;
+}
+.allbeers-container {
+  margin-top: 10%;
+  width: 5%;
+}
+.beer-img {
+  max-width: 10%;
+  height: auto;
 }
